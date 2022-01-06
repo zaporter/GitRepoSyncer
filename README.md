@@ -1,4 +1,4 @@
-##Git Repo Syncer
+## Git Repo Syncer
 
 This is just a tool to have my git projects on my AWS servers stay up to date. Just add projects to this and then have a script which runs the sync command to pull in all the remote changes. 
 
