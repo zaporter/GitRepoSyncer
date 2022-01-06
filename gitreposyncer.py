@@ -136,7 +136,7 @@ elif mode=="SYNC":
                 shouldPull=True
 
             if shouldPull:
-                if not runLine(['git','pull',entry['path']]):
+                if not runLine(['git','-C',entry['path'],'pull']):
                     success=False
         else:
             if not runLine(['git','clone',entry['url'],entry['path']]):
